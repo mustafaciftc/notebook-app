@@ -3,9 +3,22 @@
 .env.local
 .env.production
 
-# Node modules
-node_modules/
+# Android
+android/build/
+android/.gradle/
+android/app/build/
 
-# React Native
+# iOS
+ios/build/
+
+# Node modules - SADECE server için
+server/node_modules/
+
+# React Native modules - SADECE mobile için
 mobile/node_modules/
-mobile/dist/
+
+# React Native diğer
+.expo/
+dist/
+*.log
+.DS_Store
